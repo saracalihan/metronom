@@ -1,0 +1,84 @@
+export default {
+  title: 'metronom',
+  description: '',
+  lang: "en-US",
+  lastUpdated: true,
+  themeConfig: {
+    logo: "/metronom.png",
+    nav: [
+      { text: "Github", link: "https://github.com/anchovycation/metronom" },
+      { text: "npm", link: "https://www.npmjs.com/package/metronom" },
+      {
+        text: "Releases",
+        link: "https://github.com/anchovycation/metronom/releases",
+      },
+    ],
+    sidebar: [
+      {
+        text: "Getting Started",
+        link: "getting-started/",
+        items: [
+          {
+            text: "What is Metronom?",
+            link: "getting-started/",
+          },
+          {
+            text: "Installation",
+            link: "getting-started/installation",
+          },
+          {
+            text: "Let's start",
+            link: "getting-started/lets-start",
+          },
+        ],
+      },
+      {
+        text: "Detailed Documentation",
+        link: "docs/",
+        items: [
+          {
+            text: "Metronom",
+            link: "docs/metronom",
+          },
+          {
+            text: "Model",
+            link: "docs/model",
+          },
+          {
+            text: "ModelInstance",
+            link: "docs/modelinstance",
+          },
+        ],
+      },
+      {
+        text: "Migrating",
+        items: [
+          {
+            text: "Migrating to v2.0.0",
+            link: "migrating/to-v2-0-0.html",
+          },
+        ],
+      },
+      {
+        text: "Change Notes",
+        link: "change-notes/"
+      },
+    ],
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/anchovycation/metronom" },
+    ],
+
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2022-present",
+    },
+  },
+
+  head: [
+    ["link", { rel: "icon", href: `/metronom.png` }],
+    ["meta", { name: "theme-color", content: "#6688C1" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    ["link", { rel: "stylesheet", href: "/styles.css" }],
+  ],
+}
