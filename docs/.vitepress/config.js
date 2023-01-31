@@ -38,15 +38,15 @@ export default {
         items: [
           {
             text: "Metronom",
-            link: "docs/metronom",
+            link: "docs/classes/Metronom.default.html",
           },
           {
             text: "Model",
-            link: "docs/model",
+            link: "docs/classes/Model.default.html",
           },
           {
             text: "ModelInstance",
-            link: "docs/modelinstance",
+            link: "docs/classes/ModelInstance.default.html",
           },
         ],
       },
