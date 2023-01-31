@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master
+      - 
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -25,4 +25,4 @@ jobs:
           personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: docs/.vitepress/dist
           external_repository: anchovycation/anchovycation.github.io
-          publish_branch: master
+          publish_branch: gh-pages
