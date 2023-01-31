@@ -24,5 +24,5 @@ jobs:
         with:
           personal_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: docs/.vitepress/dist
-          external_repository: axe-api/axe-api.github.io
+          external_repository: anchovycation/anchovycation.github.io
           publish_branch: master
